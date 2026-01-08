@@ -1,0 +1,62 @@
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+  max-width: 540px;
+}
+
+.empty {
+  color: var(--color-text-muted);
+}
+
+/* Featured section: full-width prominence */
+.featured {
+  margin-bottom: 2.5rem;
+}
+
+/* Constrain featured card width for readability on large screens */
+.featured > * {
+  max-width: 640px;
+}
+
+/* Taller media zone for featured card — reinforces visual hierarchy */
+.featured :global(.mediaZone) {
+  aspect-ratio: 16 / 8;
+}
+
+/* Quiet hierarchy marker — not a heading, just a gentle cue */
+.sectionLabel {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+/* Standard grid: 2-column responsive layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Cap at 2 columns for visual balance */
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Allow 3 columns only on very wide screens */
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

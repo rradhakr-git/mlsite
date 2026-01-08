@@ -1,0 +1,88 @@
+/* Hero section */
+.hero {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.125rem;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+/* Generic section */
+.section {
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+/* Philosophy / Approach */
+.philosophy {
+  max-width: 600px;
+}
+
+.philosophy p {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.philosophy p:last-child {
+  margin-bottom: 0;
+}
+
+/* Featured card container */
+.featuredCard {
+  max-width: 480px;
+  margin-bottom: 1.25rem;
+}
+
+.viewAll {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.viewAll:hover {
+  color: var(--color-text);
+}
+
+/* Contact section */
+.contact {
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  max-width: 480px;
+}
+
+.contactText {
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.contactLink {
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
