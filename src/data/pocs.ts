@@ -51,6 +51,17 @@ export const pocs: Poc[] = [
     },
   },
   {
+    slug: 'nppes-mcp-server',
+    title: 'NPI Registry MCP Server — Semantic Provider Search for AI Agents',
+    summary: 'Wraps the NPPES NPI registry in a Model Context Protocol server so AI assistants can search, validate, and resolve healthcare providers using natural language — no taxonomy code knowledge required.',
+    category: 'AI/ML',
+    status: 'Live',
+    imageUrl: '/images/placeholders/NPPES_MCP_GEMINI.png',
+    links: {
+      github: 'https://github.com/rradhakr-git/nppes-mcp-server',
+    },
+  },
+  {
     slug: 'medical-plan-selection-advisor',
     title: 'Medical Plan Selection Advisor Using Predictive Cost Modeling',
     summary: 'Analyzes household profile and expected healthcare usage to recommend the best-fit medical plan from employer options.',
