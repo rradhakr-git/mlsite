@@ -32,25 +32,6 @@ export const pocs: Poc[] = [
     },
   },
   {
-    slug: 'multimodal-pdf-table-extraction',
-    title: 'Multimodal PDF Table Extraction with Intelligent Model Routing',
-    summary: 'Extracts structured tables and text from PDFs using vision-language models, with automatic model routing that reduces processing costs and optimizes accuracy.',
-    category: 'Data Processing',
-    status: 'Demo on request',
-    imageUrl: '/images/placeholders/pdfextract1.jpg',
-  },
-  {
-    slug: 'mcp-agent',
-    title: 'MCP-Based Multi-API Agent with Google ADK Integration',
-    summary: 'Implements the Model Context Protocol to expose multiple external APIs as agent-callable tools. Demonstrates clean separation between tool execution and LLM reasoning using CLI and Streamlit clients.',
-    category: 'AI/ML',
-    status: 'Live',
-    imageUrl: '/images/placeholders/MCPImage1.png',
-    links: {
-      demo: 'https://app-public-mcp-mlinnovationlab.streamlit.app/',
-    },
-  },
-  {
     slug: 'nppes-mcp-server',
     title: 'NPI Registry MCP Server — Semantic Provider Search for AI Agents',
     summary: 'Wraps the NPPES NPI registry in a Model Context Protocol server so AI assistants can search, validate, and resolve healthcare providers using natural language — no taxonomy code knowledge required.',
@@ -62,11 +43,30 @@ export const pocs: Poc[] = [
     },
   },
   {
+    slug: 'multimodal-pdf-table-extraction',
+    title: 'Multimodal PDF Table Extraction with Intelligent Model Routing',
+    summary: 'Extracts structured tables and text from PDFs using vision-language models, with automatic model routing that reduces processing costs and optimizes accuracy.',
+    category: 'Data Processing',
+    status: 'Demo on request',
+    imageUrl: '/images/placeholders/pdfextract1.jpg',
+  },
+  {
     slug: 'medical-plan-selection-advisor',
     title: 'Medical Plan Selection Advisor Using Predictive Cost Modeling',
     summary: 'Analyzes household profile and expected healthcare usage to recommend the best-fit medical plan from employer options.',
     category: 'Decision Support',
     status: 'Demo on request',
     imageUrl: '/images/placeholders/dc.jpg',
+  },
+  {
+    slug: 'mcp-agent',
+    title: 'MCP-Based Multi-API Agent with Google ADK Integration',
+    summary: 'Implements the Model Context Protocol to expose multiple external APIs as agent-callable tools. Demonstrates clean separation between tool execution and LLM reasoning using CLI and Streamlit clients.',
+    category: 'AI/ML',
+    status: 'Live',
+    imageUrl: '/images/placeholders/MCPImage1.png',
+    links: {
+      demo: 'https://app-public-mcp-mlinnovationlab.streamlit.app/',
+    },
   },
 ];
